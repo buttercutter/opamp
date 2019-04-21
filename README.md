@@ -1,19 +1,25 @@
 # opamp
 An opamp based on positive frequency compensation topology
 
-Power dissipation: 366 uW
+Measurements are done using output load capacitance CL of 100 pF 
+and resistance RL of 10 Meg Ω
+
+Power dissipation: 403 uW
 
 Gain: 93 dB
 
-Unity-Gain Bandwidth: 275 MHz
+Unity-Gain Bandwidth: 26 MHz
 
-Phase Margin: 76 degrees
+Phase Margin: 63 degrees
 
-
-
-![waveform](./opamp.png)
+Settling Time: 63.14 ns
 
 
-TODO: CMRR, ICMR, PSRR, Output Swing, Settling Time
+
+![bode_plot](./opamp.png)
+
+![settling_time](./opamp_settling_time.png)
+
+TODO: CMRR, ICMR, PSRR, Output Swing
 
 Credit: [Joao Ramos thesis](http://asco.sourceforge.net/doc/phd_jramos.pdf) and eevblog forum
