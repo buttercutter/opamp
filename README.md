@@ -18,7 +18,7 @@ Settling Time: 63.14 ns
 
 ![bode_plot](./opamp.png)
 
-![settling_time](./opamp_settling_time.png)
+![settling_time](./settling_time.png)
 
 TODO: CMRR, ICMR, PSRR, Output Swing
 
